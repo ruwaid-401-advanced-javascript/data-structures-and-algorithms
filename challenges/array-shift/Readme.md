@@ -1,10 +1,10 @@
-# Reverse an Array
+# shift an Array and add new element
 
 loops (for,while)
 
 ## Challenge
 
-function that take an array and revers it
+function that take an array and a number and add the number to the middle index of the array
 
 ## Approach & Efficiency
 

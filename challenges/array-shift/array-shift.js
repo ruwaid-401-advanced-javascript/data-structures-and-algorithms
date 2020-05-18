@@ -2,23 +2,20 @@
 
 function insertShiftArray(arr, valueToBeAdded) {
   let newArr = [];
-  for (let i = 0; i < arr.length;) {
+  let index = 0;
+  if (arr.length % 2 === 0) index = arr.length / 2;
+  else { index = Math.floor(arr.length / 2) + 1; }
 
-    if (valueToBeAdded > arr[i]) {
-      newArr[i] = arr[i];
-      i++;
-    } else {
-      newArr[i] = valueToBeAdded;
-      for (let j = i ; j < arr.length; j++) {
-        newArr[j+1] = arr[j];
-      }
-      return newArr;
-    }
-
+  for (let i = 0; i < index; i++) {
+    newArr[i] = arr[i];
   }
+
+  newArr[newArr.length] = valueToBeAdded;
+
+  for (let j = index+1; j< arr.length+1; j++) {
+    newArr[j] = arr[j-1];
+  }
+  return newArr;
 }
-
-
-console.log(insertShiftArray([],5));
 
 module.exports = insertShiftArray;
