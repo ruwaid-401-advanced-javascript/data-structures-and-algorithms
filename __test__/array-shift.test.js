@@ -1,20 +1,27 @@
 'use strict';
 
-const insertShiftArray = require('../challenges/array-shift/array-shift.js');
+const ShiftArray = require('../challenges/array-shift/array-shift.js');
 
 describe('Array shift challenge', () => {
 
-  it('Input array witout number', () => {
-    expect(insertShiftArray([2, 4, 6, 8])).toEqual([undefined, 2, 4, 6, 8]);
+  it('ADD Element: Input array witout number', () => {
+    expect(ShiftArray.insertShiftArray([2, 4, 6, 8])).toEqual([ 2, 4,undefined, 6, 8]);
+    expect(ShiftArray.insertShiftArray([1, 2, 3, 4, 5])).toEqual([ 1, 2, 3,undefined, 4, 5]);
   });
 
-  it('Input number without the array', () => {
-    expect(insertShiftArray([], 16)).toBeUndefined();
+  it('ADD Element: Input number without the array', () => {
+    expect(ShiftArray.insertShiftArray([], 16)).toEqual([16]);
+    expect(ShiftArray.insertShiftArray([], 28)).toEqual([28]);
   });
 
-  it('Expected outcome', () => {
-    expect(insertShiftArray([2, 4, 6, 8], 5)).toEqual([2, 4, 5, 6, 8]);
-    expect(insertShiftArray([4, 8, 15, 23, 42], 16)).toEqual([4, 8, 15, 16, 23, 42]);
+  it('ADD Element: Expected outcome', () => {
+    expect(ShiftArray.insertShiftArray([2, 4, 6, 8], 5)).toEqual([2, 4, 5, 6, 8]);
+    expect(ShiftArray.insertShiftArray([4, 8, 15, 23, 42], 16)).toEqual([4, 8, 15, 16, 23, 42]);
+  });
+
+  it('Remove middle Element(Stretch Goal): Expected outcome', () => {
+    expect(ShiftArray.deleteMiddleElement([2, 4, 5, 6, 8])).toEqual([2, 4, 6, 8]);
+    expect(ShiftArray.deleteMiddleElement([4, 8, 15, 16, 23, 42])).toEqual([4, 8, 15, 23, 42]);
   });
 });
 
