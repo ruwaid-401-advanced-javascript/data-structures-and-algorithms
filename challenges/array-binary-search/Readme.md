@@ -13,7 +13,8 @@ function that take an array and a number and find the number index in the array
 
 i used loop because i need to loop across all the elements to change the array
 i used binary search algorithm
-Big O = n
+time --> Big O = O(n)
+space --> Big O = O(n)
 
 ## Solution
 
