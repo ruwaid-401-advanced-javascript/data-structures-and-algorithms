@@ -1,6 +1,6 @@
 'use strict';
 
-let LinkedList = require('../challenges/linked-list/linked-list.js');
+let LinkedList = require('../data-Structures/linked-list/linked-list.js');
 
 
 describe('Linked list challenge', () => {

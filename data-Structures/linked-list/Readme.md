@@ -12,9 +12,16 @@ function that take an array and a number and add the number to the middle index 
 ## Approach & Efficiency
 
 i used classes and while loop because i need to loop across all the elements
-space --> Big O = O(n)
-time --> Big O =O(n)
-
+### BIG O
+* insert method
+  * space --> O(n)
+  * time --> O(1) 
+* includes method 
+  * space --> Big O = O(n)
+  * time --> Big O = O(n)
+* toString method
+  * space --> Big O = O(n)
+  * time --> Big O = O(n)
 
 ## Solution
 
