@@ -1,5 +1,5 @@
 ## Github actions
-[link](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/pull/4/checks)
+[link](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/pull/6/checks)
 
 # Linked List 
 
