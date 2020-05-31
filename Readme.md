@@ -11,4 +11,4 @@
 
 * [linked-list](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/linked-list/data-Structures/linked-list)
 
-* [ll-insertion](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/ll-insertion/data-Structures/ll-insertion)
+* [ll-insertion](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/ll-insertions/data-Structures/ll-insertion)
