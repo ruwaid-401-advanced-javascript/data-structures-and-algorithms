@@ -52,36 +52,10 @@ function mergeLists(list1, list2) {
         break;
       }
     }
-    // console.log('hhhhhh', tempList);
 
 
   }
-  // console.log('finiiiiissssss', tempList);
-  // console.log(tempList.head.next);
-  // console.log(tempList.head.next.next);
-
-  // console.log(list1.head);
-  // console.log(list2.head.next);
-  // console.log('rrrrr', toString(tempList));
-  // console.log('nn', toString(list1));
-
-  // console.log('mmmmm', toString(list2));
   return tempList;
-}
-
-function toString(ee) {
-  let str = '"';
-  let currentNode = ee.head;
-
-  str += `{ ${currentNode.value} }`;
-
-  while (currentNode.next) {
-    currentNode = currentNode.next;
-    str += ` -> { ${currentNode.value} }`;
-  }
-
-  str += ' -> NULL "';
-  return str;
 }
 
 // let list1 = { head: { value: 'test 1', next: { value: 'test1 after head', next: { value: 'test1 after head2', next: { value: 'test1 after head3', next: null } } } } };
@@ -96,8 +70,14 @@ function toString(ee) {
 // let list2 = { head: { value: 'test 2', next: { value: 'test2 after head', next: { value: 'test2 after head2', next: { value: 'test2 after head3', next: null } } } } };
 
 
-// // mergeLists(list1, list2);
-// console.log('fffffffff', mergeLists(list1, list2));
+// let x = mergeLists(list1, list2);
+// // console.log('fffffffff', mergeLists(list1, list2));
+// console.log(x.head);
+// console.log(x.head.next);
+// console.log(x.head.next.next);
+// console.log(x.head.next.next.next);
+// console.log(x.head.next.next.next.next);
+// console.log(x.head.next.next.next.next.next);
 // console.log('rrrrr', toString(mergeLists(list1, list2)));
 
 module.exports = mergeLists;
