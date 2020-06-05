@@ -16,3 +16,5 @@
 * [ll-kth-from-end](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/ll-kth-from-end/data-Structures/ll-kth-from-end)
 
 * [ll-Merge](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/ll-merge/challenges/llMerge)
+
+* [stacks-and-queues](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/stacks-and-queues/stacksAndQueues/stacks-and-queues)
