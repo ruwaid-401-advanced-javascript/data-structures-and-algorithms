@@ -33,5 +33,34 @@ describe('Stacks and queues challenge', () => {
     expect(testStack.isEmpty()).toBeTruthy();
   });
 
-  
+  it('Queues test ', () => {
+    let testQueue = new Queue();
+    // Can successfully make and instance of a Queue
+    expect(testQueue instanceof Queue).toBeTruthy();
+    // Can successfully enqueue into a queue
+    testQueue.enqueue('1');
+    expect(testQueue.front.value).toEqual('1');
+    // Can successfully enqueue multiple values into a queue
+    testQueue.enqueue('2');
+    testQueue.enqueue('3');
+    expect(testQueue.front.value).toEqual('1');
+    expect(testQueue.front.next.value).toEqual('2');
+    // Can successfully dequeue out of a queue the expected value
+    testQueue.dequeue();
+    expect(testQueue.front.value).toEqual('2');
+    // Can successfully peek into a queue, seeing the expected value
+    expect(testQueue.peek()).toEqual('2');
+    // Return a False boolean isEmpty 
+    expect(testQueue.isEmpty()).toBeFalsy();
+    // Can successfully empty a queue after multiple dequeues
+    testQueue.dequeue();
+    testQueue.dequeue();
+    expect(testQueue.front).toBeNull();
+    // Calling dequeue or peek on empty queue raises exception
+    expect(testQueue.peek()).toBeNull();
+    expect(testQueue.dequeue()).toBeNull();
+    // Return a True boolean isEmpty 
+    expect(testQueue.isEmpty()).toBeTruthy();
+  });
+
 });
