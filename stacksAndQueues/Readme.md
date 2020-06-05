@@ -15,31 +15,31 @@ i used classes
 ### BIG O
 #### Stacks
 * push method
-  * space --> Big O = O(1)
-  * time --> Big O = O(1)
+  * space --> Big O = O(1) --> constant time(no loops)
+  * time --> Big O = O(1) --> constant time(no loops)
 * pop method
-  * space --> Big O = O(1)
-  * time --> Big O = O(1)
+  * space --> Big O = O(1) --> constant time(no loops)
+  * time --> Big O = O(1) --> constant time(no loops)
 * peek method
-  * space --> Big O = O(1)
-  * time --> Big O = O(1)
+  * space --> Big O = O(1) --> constant time(no loops)
+  * time --> Big O = O(1) --> constant time(no loops)
 * isEmpty method
-  * space --> Big O = O(1)
-  * time --> Big O = O(1)
+  * space --> Big O = O(1) --> constant time(no loops)
+  * time --> Big O = O(1) --> constant time(no loops)
 #### Queues
 * enqueue method
-  * space --> Big O = O(1)
-  * time --> Big O = O(1)
+  * space --> Big O = O(1) --> constant time(no loops)
+  * time --> Big O = O(1) --> constant time(no loops)
 * dequeue method
-  * space --> Big O = O(1)
-  * time --> Big O = O(1)
+  * space --> Big O = O(1) --> constant time(no loops)
+  * time --> Big O = O(1) --> constant time(no loops)
 * peek method
-  * space --> Big O = O(1)
-  * time --> Big O = O(1)
+  * space --> Big O = O(1) --> constant time(no loops)
+  * time --> Big O = O(1) --> constant time(no loops)
 * isEmpty method
-  * space --> Big O = O(1)
-  * time --> Big O = O(1)
+  * space --> Big O = O(1) --> constant time(no loops)
+  * time --> Big O = O(1) --> constant time(no loops)
 
 ## Solution
 
-![Reverse an array whitboard](../../assets/stacks-and-queues.jpeg)
+![Reverse an array whitboard](../assets/stacks-and-queues.jpeg)
