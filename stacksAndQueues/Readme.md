@@ -7,7 +7,7 @@ Classes and functions
 
 ## Challenge
 
-classes that have functions or method to add or delete to the stacks and queues 
+classes that have methods to add or delete to the stacks and queues 
 
 ## Approach & Efficiency
 
