@@ -1,30 +1,37 @@
+'use strict';
 
-// let x = new Stack();
-// console.log(x);
-// x.push('5');
-// x.push('7');
-// x.push('12');
-// console.log(x.push('5'));
-// console.log(x.push('7'));
-// console.log(x.push('12'));
-// console.log(x.peek());
-// x.pop();
-// console.log(x.pop());
-// console.log(x);
-// console.log(x.peek());
-// console.log(x.isEmpty());
+const { Stack, Queue } = require('../stacksAndQueues/stacks-and-queues');
 
-// let y = new Queue();
-// console.log(y);
-// console.log(y.enqueue('1'));
-// console.log(y);
-// console.log(y.enqueue('2'));
-// console.log(y);
-// console.log(y.enqueue('3'));
-// console.log(y);
-// console.log(y.dequeue());
-// console.log(y);
-// console.log(y.peek());
-// console.log(y.dequeue());
-// console.log(y.peek());
-// console.log(y.isEmpty());
+
+describe('Stacks and queues challenge', () => {
+  it('stacks test ', () => {
+    let testStack = new Stack();
+    // Can successfully make and instance of a stack
+    expect(testStack instanceof Stack).toBeTruthy();
+    // Can successfully push onto a stack
+    testStack.push('1');
+    expect(testStack.top.value).toEqual('1');
+    // Can successfully push multiple values onto a stack
+    testStack.push('2');
+    testStack.push('3');
+    expect(testStack.top.value).toEqual('3');
+    // Can successfully pop off the stack
+    testStack.pop();
+    expect(testStack.top.value).toEqual('2');
+    // test peek()
+    expect(testStack.peek()).toEqual('2');
+    // Return a False boolean isEmpty 
+    expect(testStack.isEmpty()).toBeFalsy();
+    // Can successfully empty a stack after multiple pops 
+    testStack.pop();
+    testStack.pop();
+    expect(testStack.top).toBeNull();
+    // Calling pop or peek on empty stack raises exception
+    expect(testStack.pop()).toBeNull();
+    expect(testStack.peek()).toBeNull();
+    // Return a True boolean isEmpty 
+    expect(testStack.isEmpty()).toBeTruthy();
+  });
+
+  
+});
