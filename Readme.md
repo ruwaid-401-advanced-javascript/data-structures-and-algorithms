@@ -17,4 +17,4 @@
 
 * [ll-Merge](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/ll-merge/challenges/llMerge)
 
-* [stacks-and-queues](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/stacks-and-queues/stacksAndQueues/stacks-and-queues)
+* [stacks-and-queues](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/stack-and-queue)

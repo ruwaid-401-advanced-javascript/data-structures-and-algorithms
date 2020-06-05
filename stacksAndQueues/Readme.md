@@ -1,5 +1,5 @@
 ## Github actions
-[link](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/pull/9/checks)
+[link](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/pull/10/checks)
 
 # Stacks-and-Queues
 
