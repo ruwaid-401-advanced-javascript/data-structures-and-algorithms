@@ -39,12 +39,9 @@ class Queue {
   enqueue(value) {
     const node = new Node(value);
     if (!this.front) {
-      //  front and rear refer to the same address
       this.front = node;
       this.rear = node;
     } else {
-      // add second element --> rear.next refere to the same front.next
-      // add third element --> rear.next refere to the same next inside the next of front.next
       this.rear.next = node;
       this.rear = node;
     }
