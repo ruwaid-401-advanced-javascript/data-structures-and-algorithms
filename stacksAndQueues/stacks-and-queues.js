@@ -78,7 +78,7 @@ class Queue {
 
 }
 
-// let y = new Queue();
+let y = new Queue();
 // console.log(y);
 // console.log(y.enqueue('1'));
 // console.log(y);
