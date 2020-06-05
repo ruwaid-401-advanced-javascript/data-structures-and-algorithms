@@ -26,20 +26,7 @@ class Stack {
   }
 }
 
-// let x = new Stack();
-// console.log(x);
-// x.push('5');
-// x.push('7');
-// x.push('12');
-// console.log(x.push('5'));
-// console.log(x.push('7'));
-// console.log(x.push('12'));
-// console.log(x.peek());
-// x.pop();
-// console.log(x.pop());
-// console.log(x);
-// console.log(x.peek());
-// console.log(x.isEmpty());
+
 
 
 
@@ -78,20 +65,7 @@ class Queue {
 
 }
 
-let y = new Queue();
-// console.log(y);
-// console.log(y.enqueue('1'));
-// console.log(y);
-// console.log(y.enqueue('2'));
-// console.log(y);
-// console.log(y.enqueue('3'));
-// console.log(y);
-// console.log(y.dequeue());
-// console.log(y);
-// console.log(y.peek());
-// console.log(y.dequeue());
-// console.log(y.peek());
-// console.log(y.isEmpty());
+
 
 
 module.exports = { Stack, Queue };
