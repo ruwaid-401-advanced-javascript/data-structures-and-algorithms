@@ -13,8 +13,8 @@ class PseudoQueue {
   dequeue() {
     if (!this.rear.peek()) return 'Nothing';
     while (this.rear.peek()) {
-      let transferValue = this.rear.pop();
-      this.front.push(transferValue);
+      let value = this.rear.pop();
+      this.front.push(value);
     }
     return this.front.pop();
   }
