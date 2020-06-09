@@ -16,6 +16,7 @@ describe('Queues using Stacks challenge', () => {
     // Can successfully empty a queue after multiple dequeues
     testQueue.dequeue();
     testQueue.dequeue();
+    testQueue.dequeue();
     // Calling dequeue or peek on empty queue raises exception
     expect(testQueue.dequeue()).toEqual('Nothing');
   });

@@ -11,6 +11,9 @@ class PseudoQueue {
     return this.rear.push(value);
   }
   dequeue() {
+    if( this.front.peek() ){
+      return this.front.pop();
+    } 
     if (!this.rear.peek()) return 'Nothing';
     while (this.rear.peek()) {
       let value = this.rear.pop();
@@ -19,7 +22,6 @@ class PseudoQueue {
     return this.front.pop();
   }
 }
-
 
 class Stack {
   constructor() {
