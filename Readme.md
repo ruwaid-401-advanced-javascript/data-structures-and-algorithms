@@ -20,3 +20,5 @@
 * [stacks-and-queues](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/stack-and-queue/stacksAndQueues)
 
 * [queues-and-stacks](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/queue-with-stacks/challenges/queueWithStacks)
+
+* [multi-bracket-validation](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/multi-bracket-validation/challenges/MultiBracketValidation)
