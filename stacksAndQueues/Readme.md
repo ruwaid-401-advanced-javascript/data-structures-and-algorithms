@@ -26,6 +26,7 @@ i used classes
 * isEmpty method
   * space --> Big O = O(1) --> constant time(no loops)
   * time --> Big O = O(1) --> constant time(no loops)
+  
 #### Queues
 * enqueue method
   * space --> Big O = O(1) --> constant time(no loops)
