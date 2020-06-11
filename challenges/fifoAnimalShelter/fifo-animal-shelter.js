@@ -21,44 +21,58 @@ class AnimalShelter {
   }
 
   dequeue(pref) {
-    // if(!pref) return  this.rear = this.rear.next ;
-    if (!this.front) return null;
-    // if(pref !== 'dog' && pref !== 'cat') return null;
-    // console.log('oooooo',this.front);
-    let current = this.front;
-    console.log(current.value);
-
-    while (current.next) {
-      if (pref === 'zz' && current.value === 'dog') {
-        this.front = this.front.next;
-        current.value = 'yyyyyyy';
-        console.log('hi ----------->', this.front);
-        break;
-      }
-      current = current.next;
-      console.log('current --->>', current);
+    if (this.front == null) return 'empty';
+    if (!pref) {
+      let value = this.front.value;
+      this.front = this.front.next;
+      return value;
     }
-
+    if (pref === 'dog' || pref === 'cat') {
+      if (this.front.value === pref) {
+        let value = this.front.value;
+        this.front = this.front.next;
+        return value;
+      }
+      let current = this.front;
+      while (current.next) {
+        if (current.next.value === pref) {
+          let value = current.next.value;
+          current.next = current.next.next;
+          current.next ? null : this.rear = current;
+          return value;
+        }
+        current = current.next;
+      }
+      return 'not found';
+    }
+    else {
+      return null;
+    }
   }
 }
 
-let x = new AnimalShelter();
-// console.log(x);
-x.enqueue('dog');
-// console.log(x);
-x.enqueue('cat');
-x.enqueue('cat');
-x.enqueue('dog');
-x.enqueue('cat');
+// let x = new AnimalShelter();
+// // console.log(x);
+// x.enqueue('cat');
+// x.enqueue('dog');
+// // console.log(x);
 
-console.log(x);
+// // x.enqueue('zz');
+// x.enqueue('dog');
+// x.enqueue('cat');
+// console.log('enque', x);
+// console.log(x.front.next);
+// console.log('---------------------------------------------------------------------------');
 
-x.dequeue('cat');
-console.log(x);
+// x.dequeue();
+// console.log('---------------------------------------------------------------------------');
 
-x.dequeue('zz');
-console.log(x);
-console.log(x.front.next);
-console.log(x.front.next.next);
+// console.log('deque', x);
+// console.log(x.front.next);
+
+// // x.dequeue('zz');
+// // console.log(x);
+// // console.log(x.front.next);
+// // console.log(x.front.next.next);
 
 module.exports = AnimalShelter;
