@@ -23,4 +23,4 @@ i used classes
 
 ## Solution
 
-![Reverse an array whitboard](../assets/queues-and-stacks.jpeg)
+![Reverse an array whitboard](../../assets/queues-and-stacks.jpeg)
