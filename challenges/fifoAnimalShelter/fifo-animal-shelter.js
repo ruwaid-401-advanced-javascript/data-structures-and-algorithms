@@ -51,28 +51,4 @@ class AnimalShelter {
   }
 }
 
-// let x = new AnimalShelter();
-// // console.log(x);
-// x.enqueue('cat');
-// x.enqueue('dog');
-// // console.log(x);
-
-// // x.enqueue('zz');
-// x.enqueue('dog');
-// x.enqueue('cat');
-// console.log('enque', x);
-// console.log(x.front.next);
-// console.log('---------------------------------------------------------------------------');
-
-// x.dequeue();
-// console.log('---------------------------------------------------------------------------');
-
-// console.log('deque', x);
-// console.log(x.front.next);
-
-// // x.dequeue('zz');
-// // console.log(x);
-// // console.log(x.front.next);
-// // console.log(x.front.next.next);
-
 module.exports = AnimalShelter;
