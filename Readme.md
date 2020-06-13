@@ -23,4 +23,4 @@
 
 * [multi-bracket-validation](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/multi-bracket-validation/challenges/MultiBracketValidation)
 
-* [animal-shelter](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/[fifo-animal-shelter/challenges/fifoAnimalShelter)
+* [animal-shelter](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/fifo-animal-shelter/challenges/fifoAnimalShelter)
