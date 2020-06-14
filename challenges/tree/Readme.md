@@ -15,11 +15,11 @@ i used classes anf recurssion
 ### BIG O
 #### Binary Search Tree 
 * add method
-  * space --> Big O = O(log(n)) 
-  * time --> Big O = O(h) 
+  * space --> Big O = O(n) --> depends on number of elements in the tree
+  * time --> Big O = O(h) --> depends on the height of the tree
 * contain method
-  * space --> Big O = O(log(n)) 
-  * time --> Big O = O(h) 
+  * space --> Big O = O(n) --> depends on number of elements in the tree
+  * time --> Big O = O(h) -->depends on the height of the tree
 
 
 ## Solution
