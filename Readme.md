@@ -26,3 +26,5 @@
 * [animal-shelter](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/[fifo-animal-shelter/challenges/fifoAnimalShelter)
 
 * [tree](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/tree/challenges/tree)
+
+* [fizzbuzz-tree](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/tree/challenges/fizzbuzz-tree)
