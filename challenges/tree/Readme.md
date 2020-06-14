@@ -1,5 +1,5 @@
 ## Github actions
-[link](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/pull/15/checks)
+[link](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/pull/14/checks)
 
 # Tree
 
@@ -24,4 +24,4 @@ i used classes anf recurssion
 
 ## Solution
 
-![UML](../../assets/binary-search-tree.jpeg)
+![UML](../../assets/array-binary-search.jpeg)
