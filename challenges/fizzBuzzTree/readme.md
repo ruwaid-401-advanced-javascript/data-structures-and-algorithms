@@ -21,4 +21,4 @@ i used recurssion
 
 ## Solution
 
-![UML](../../assets/fizz-buzz-tree.jpeg)
+![UML](../../assets/fizz-buzz-tree.Jpeg)
