@@ -28,3 +28,5 @@
 * [tree](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/tree/challenges/tree)
 
 * [fizzbuzz-tree](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/fizzbuzz-tree/challenges/fizzBuzzTree)
+
+* [breadth-First](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/tree/challenges/tree/breadthFirst)
