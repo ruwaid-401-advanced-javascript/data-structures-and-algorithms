@@ -20,4 +20,4 @@ i used classes anf recurssion
 
 ## Solution
 
-![UML](../../assets/breadthFirst.jpeg)
+![UML](../../../assets/breadthFirst.jpeg)
