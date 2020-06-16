@@ -31,4 +31,4 @@
 
 * [breadth-First](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/breadth-first/challenges/tree/breadthFirst)
 
-* [breadth-First](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/find-maximum-binary-tree/challenges/tree/find-maximum-binary-tree)
+* [Maximum-Tree](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/find-maximum-binary-tree/challenges/tree/find-maximum-binary-tree)

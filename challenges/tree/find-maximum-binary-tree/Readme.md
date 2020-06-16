@@ -21,4 +21,4 @@ i used classes anf recurssion
 
 ## Solution
 
-![UML](../../assets/array-binary-search.jpeg)
+![UML](../../../assets/array-binary-search.jpeg)
