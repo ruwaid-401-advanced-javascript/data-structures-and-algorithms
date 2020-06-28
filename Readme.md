@@ -35,4 +35,4 @@
 
 * [sum-odd-Tree](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/sum-odd-Tree/challenges/tree/sum-odd-Tree)
 
-* [insertion-sort](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/insertion-Sort/challenges/tree/insertion-sort)
+* [insertion-sort](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/insertion-Sort/challenges/insertion-sort)
