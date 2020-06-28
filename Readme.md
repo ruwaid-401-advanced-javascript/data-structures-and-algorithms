@@ -30,3 +30,5 @@
 * [fizzbuzz-tree](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/fizzbuzz-tree/challenges/fizzBuzzTree)
 
 * [breadth-First](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/breadth-first/challenges/tree/breadthFirst)
+
+* [Maximum-Tree](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/find-maximum-binary-tree/challenges/tree/find-maximum-binary-tree)
