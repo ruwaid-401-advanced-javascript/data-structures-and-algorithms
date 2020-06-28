@@ -18,5 +18,8 @@ describe('Insertion Sort', () => {
     expect(insertionSort(testArr)).toEqual([5, 5, 5, 7, 7, 12]);
   });
 
-
+  it('Insertion Sort test ', () => {
+    let testArr = [2,3,5,7,13,11];
+    expect(insertionSort(testArr)).toEqual([2,3,5,7,11,13]);
+  }); 
 });
