@@ -74,3 +74,7 @@ describe('Insertion Sort', () => {
 });
 
 ```
+
+## Solution
+
+![UML](../../../assets/insertionSortTracing.JPG)
