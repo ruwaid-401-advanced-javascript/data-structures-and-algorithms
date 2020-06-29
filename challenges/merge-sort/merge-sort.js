@@ -1,6 +1,6 @@
 'use strict';
 
-function mergeSort(arr){
+function mergeSort(arr) {
   const n = arr.length;
   let mid, left, right;
   if (n > 1) {
@@ -12,12 +12,12 @@ function mergeSort(arr){
     mergeSort(right);
     return merge(left, right, arr);
   }
-  else{
+  else {
     return arr;
   }
 }
 
-function merge(left, right, arr){
+function merge(left, right, arr) {
   let i = 0;
   let j = 0;
   let k = 0;
@@ -44,8 +44,9 @@ function merge(left, right, arr){
       k++;
     }
   }
+
   return arr;
 }
 
 
-module.exports.mergeSort = mergeSort; 
+module.exports = mergeSort; 

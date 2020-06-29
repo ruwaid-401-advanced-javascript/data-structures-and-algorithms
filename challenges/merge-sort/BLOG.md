@@ -132,4 +132,4 @@ describe('Merge Sort', () => {
 
 ## Solution
 
-![UML](../../assets/insertionSortTracing.JPG)
+![UML](../../assets/mergeSort.JPG)
