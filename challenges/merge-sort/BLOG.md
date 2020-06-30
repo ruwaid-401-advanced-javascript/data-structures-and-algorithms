@@ -11,7 +11,7 @@ I used function, if statement, and loops.
 #### insertion Sort Tree 
 * breadthFirst method
   * space --> Big O = O(1) --> memory will depend on the original array
-  * time --> Big O = O(nlog(n)) --> nested loops
+  * time --> Big O = O(nlog(n)) --> divide and conquer principle
 
 
 ## Challenge
