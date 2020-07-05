@@ -38,3 +38,5 @@
 * [insertion-sort](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/insertion-Sort/challenges/insertion-sort)
 
 * [merge-sort](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/merge-Sort/challenges/merge-sort)
+
+* [quick-sort](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/quick-Sort/challenges/quick-Sort)
