@@ -1,5 +1,5 @@
 ## Github actions
-[link](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/pull/22/checks)
+[link](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/pull/23/checks)
 
 # repeated Word
 function
