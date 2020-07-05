@@ -42,3 +42,5 @@
 * [quick-sort](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/quick-Sort/challenges/quick-Sort)
 
 * [hashtable](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/hashtable/challenges/hashtable)
+
+* [repeated-word](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/repeated-word/repeated-word)
