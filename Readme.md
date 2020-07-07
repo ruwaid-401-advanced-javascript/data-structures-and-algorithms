@@ -47,4 +47,4 @@
 
 * [tree_intersection](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/tree_intersection/challenges/tree/tree_intersection)
 
-* [left-join](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/left-join)
+* [left-join](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/left-join/challenges/left_join)
