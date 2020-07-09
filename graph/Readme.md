@@ -31,20 +31,20 @@ i used class
 ### BIG O
 #### graph 
 * AddNode Method
-  * space --> Big O = O(n) -->  memory will depend on the original table so it vary
-  * time --> Big O = O(n) -->  memory will depend on the original table so it vary
+  * space --> Big O = O(1) -->  constant space always will add a one memory location
+  * time --> Big O = O(1) -->  constant time
 * AddEdge Method
-  * space --> Big O = O(n) -->  memory will depend on the original table so it vary
-  * time --> Big O = O(n) -->  memory will depend on the original table so it vary
+  * space --> Big O = O(1) -->  constant space always will add a one memory location
+  * time --> Big O = O(1) -->  constant time
 * GetNodes Method
-  * space --> Big O = O(n) -->  memory will depend on the original table so it vary
-  * time --> Big O = O(n) -->  memory will depend on the original table so it vary
+  * space --> Big O = O(1) -->  constant space always will add a one memory location
+  * time --> Big O = O(n) -->  time varies as number of nodes increase or decrease
 * GetNeighbors Method
-  * space --> Big O = O(n) -->  memory will depend on the original table so it vary
-  * time --> Big O = O(n) -->  memory will depend on the original table so it vary
+  * space --> Big O = O(1) -->  constant space always will add a one memory location
+  * time --> Big O = O(1) -->  constant time
 * Size Method
-  * space --> Big O = O(n) -->  memory will depend on the original table so it vary
-  * time --> Big O = O(n) -->  memory will depend on the original table so it vary
+  * space --> Big O = O(1) -->  constant space always will add a one memory location
+  * time --> Big O = O(1) -->  constant time
 
 
 
