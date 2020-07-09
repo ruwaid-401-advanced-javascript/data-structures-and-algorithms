@@ -1,17 +1,6 @@
 'use strict';
 
-class Vertex {
-  constructor(value) {
-    this.value = value;
-  }
-}
-
-class Edge {
-  constructor(vertex, weight = 0) {
-    this.vertex = vertex;
-    this.weight = weight;
-  }
-}
+const Edge = require('./edge');
 
 class Graph {
   constructor() {
@@ -45,7 +34,6 @@ class Graph {
   }
 
   getNodes() {
-    // console.log(this._adjancyList.entries());
     for (const [vertex, edge] of this._adjancyList.entries()) {
       console.log('----------------------');
       console.log('V ====> ', vertex);
@@ -53,85 +41,10 @@ class Graph {
     }
   }
 
-
-  breadthfirst(startNode) {
-    const queue = []; // Behaviour of the queue: first in first out 
-    const vistedNodes = new Set(); // track the nodes that we visited
-
-    queue.push(startNode);
-    vistedNodes.add(startNode);
-
-    while (queue.length) {
-      const currentNode = queue.shift();
-
-      const neighbors = this.getNeighbors(currentNode);
-
-      for (let neighbor of neighbors) {
-        const neighborNode = neighbor.vertex;
-        if (vistedNodes.has(neighborNode)) {
-          continue;
-        } else {
-          vistedNodes.add(neighborNode);
-        }
-        queue.push(neighborNode);
-      }
-
-    }
-    return vistedNodes;
-  }
-
   size() {
     return this._adjancyList.size;
   }
 
-
-
-
 }
 
-
-const graph = new Graph();
-console.log(graph);
-
-
-const two = new Vertex(2);
-const three = new Vertex(3);
-const six = new Vertex(6);
-const seven = new Vertex(7);
-const eight = new Vertex(8);
-const ten = new Vertex(10);
-
-graph.addNode(two);
-graph.addNode(three);
-graph.addNode(six);
-graph.addNode(seven);
-graph.addNode(eight);
-graph.addNode(ten);
-// console.log(graph);
-
-
-
-
-graph.addEdge(two, seven);
-graph.addEdge(three, eight);
-graph.addEdge(six, seven);
-graph.addEdge(six, eight);
-graph.addEdge(ten, two);
-graph.addEdge(ten, three);
-graph.addEdge(ten, six);
-graph.addEdge(eight, seven);
-
-console.log(graph.size());
-
-
-// console.log(graph);
-// console.log(graph.getNeighbors(ten));
-
-// graph.getNodes();
-// console.log('==================================================');
-// console.log('Neighbors: ', graph.getNeighbors(ten));
-
-
-
-// console.log('***********************************************');
-// graph.breadthfirst(ten);
+module.exports = Graph;
