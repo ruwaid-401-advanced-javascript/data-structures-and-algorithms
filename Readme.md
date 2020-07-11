@@ -49,4 +49,4 @@
 
 * [left-join](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/left-join/challenges/left_join)
 
-* [graph](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/graph/graph/graph)
+* [graph](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/graph/graph)
