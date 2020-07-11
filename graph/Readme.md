@@ -50,4 +50,4 @@ i used class
 
 ## Solution
 
-![UML](../../assets/graph.Jpeg)
+![UML](../assets/graph.png)
