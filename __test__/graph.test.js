@@ -81,7 +81,7 @@ describe('Graph  tests', () => {
 
   it('afteradding Vertex andedge  test ', () => {
     graph.getNodes();
-    expect(global.console.log).toHaveBeenCalled('True, $7');
+    expect(global.console.log).toHaveBeenCalled();
   });
 
 });
