@@ -2,7 +2,7 @@
 
 const Vertex = require('../graph/vertex');
 const Edge = require('../graph/edge');
-const Graph = require('../graph/graph');
+const Graph = require('../graph/getEdge/getEdge');
 
 global.console = {
   log: jest.fn(),
@@ -67,13 +67,13 @@ describe('Graph  tests', () => {
   });
 
   it('afteradding Vertex andedge  test ', () => {
-    graph.addEdge(three, eight);
-    graph.addEdge(six, seven);
-    graph.addEdge(six, eight);
-    graph.addEdge(ten, two);
-    graph.addEdge(ten, three);
-    graph.addEdge(ten, six);
-    graph.addEdge(eight, seven);
+    graph.addEdge(three, eight,5);
+    graph.addEdge(six, seven,4);
+    graph.addEdge(six, eight,2);
+    graph.addEdge(ten, two,8);
+    graph.addEdge(ten, three,4);
+    graph.addEdge(ten, six,7);
+    graph.addEdge(eight, seven,1);
     expect(graph.size()).toEqual(6);
     expect(graph.getNeighbors(two)).toEqual([{'vertex':{'value': 7},'weight': 0 }]);
   });
@@ -81,7 +81,12 @@ describe('Graph  tests', () => {
 
   it('afteradding Vertex andedge  test ', () => {
     graph.getNodes();
-    expect(global.console.log).toHaveBeenCalled('True, $7');
+    expect(global.console.log).toHaveBeenCalled();
+  });
+
+  it('afteradding Vertex andedge  test ', () => {
+    expect(graph.getEdge([ten,six,seven])).toEqual('True, $11');
+    expect(graph.getEdge([eight,two,seven])).toEqual('False, $0');
   });
 
 });
