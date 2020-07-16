@@ -51,4 +51,4 @@
 
 * [graph](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/graph/graph)
 
-* [breadth-First-Graph](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/graph/graph/breadthFirst)
+* [breadth-First-Graph](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/breadth-first-graph/graph/breadthFirst)

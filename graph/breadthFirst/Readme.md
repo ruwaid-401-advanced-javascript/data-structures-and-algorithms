@@ -20,4 +20,4 @@ i used class
 
 ## Solution
 
-![UML](../assets/graph.png)
+![UML](../../assets/breadthFirst-graph.png)
