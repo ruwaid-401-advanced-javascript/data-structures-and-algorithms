@@ -23,4 +23,4 @@ i used class
 
 ## Solution
 
-![UML](../assets/graphGetEdge.png)
+![UML](../../assets/graphGetEdge.png)
