@@ -55,3 +55,5 @@
 
 * [get-Edge](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/get-edges/graph/getEdge)
 
+* [depthFirst](https://github.com/ruwaid-401-advanced-javascript/data-structures-and-algorithms/tree/depth-first/graph/depthFirst)
+
